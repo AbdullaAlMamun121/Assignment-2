@@ -449,5 +449,20 @@ a {
     .projects-container {
         flex-direction: column;
     }
+    /* Sponsore style for mini */
+    .our-sponsors {
+        width: 100%;
+    }
+    .brand-section .brand {
+        width: 100%;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 15px;  
+       justify-items: center;
+     
+    }
+    .footer {
+        width: 100%;
+    }
 
 }
